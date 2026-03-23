@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hacking Simulator Terminal</title>
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-header">
+            <div class="title">Hacking Simulator Terminal v1.0</div>
+            <div class="status">CONNECTED</div>
+        </div>
+        <div class="progress"></div>
+        <div class="terminal-body" id="terminal-output">
+            <div class="message">> Initializing terminal...</div>
+            <div class="message">> Establishing secure connection...</div>
+            <div class="message">> Ready for hacking sequence<span class="cursor"></span></div>
+        </div>
+        <div class="controls">
+            <button id="start-btn">Start Hacking</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
